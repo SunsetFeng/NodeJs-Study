@@ -50,3 +50,8 @@ child_process子进程主要结合Shell命令一起使用，对于编写自动�
 - Console类  --接收一个日志输入流和错误输入流,定义自定义输出器
 - time  --打印当前时间
 - timeEnd  --打印当前时间 
+
+## 六.EventEmitter  --事件 重要程度:高
+- 事件回调的this指向
+- once方法注册事件只触发一次
+- error事件

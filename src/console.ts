@@ -1,6 +1,7 @@
 import { Console } from "console";
 import fs from "fs";
 
+
 const output = fs.createWriteStream('./stdout.log');
 const errorOutput = fs.createWriteStream('./stderr.log');
 // 自定义的简单记录器
